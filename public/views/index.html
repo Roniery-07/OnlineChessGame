@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <title>Xadrez</title>
+  </head>
+  <body>
+    <h1>Chess</h1>
+
+    <div class="gameContainer">
+      <div class="timerContainer" id="player">
+        <div>
+          <span id="span1">10:00</span>
+        </div>
+      </div>
+      <div id="salve">
+        <canvas id="game"></canvas>
+      </div>
+      <div class="timerContainer" id="opponent">
+        <div>
+          <span id="span2">10:00</span>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.socket.io/4.7.5/socket.io.min.js"
+      integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/classes/Pieces.js"></script>
+    <script src="../js/classes/Pawn.js"></script>
+    <script src="../js/classes/Bishop.js"></script>
+    <script src="../js/classes/King.js"></script>
+    <script src="../js/classes/Knight.js"></script>
+    <script src="../js/classes/Queen.js"></script>
+    <script src="../js/classes/Rook.js"></script>
+    <script src="../js/classes/Table.js"></script>
+    <script src="../js/classes/Timer.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

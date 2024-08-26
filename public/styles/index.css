@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.gameContainer{
+    display: flex;
+    
+
+    justify-content: center;
+}
+
+
+
+
+
+.timerContainer{
+    height: 50px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 3px;
+    
+    
+}
+.timerContainer span{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-radius: 3px;
+    background-color: white;
+}
+
+#player div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70, 63, 63, 0.918);
+}
+#opponent div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70, 63, 63, 0.918);
+}
+
+ #player{
+
+    margin-top: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+   
+   
+   
+}
+
+#opponent{
+    margin: 30px
+} 
